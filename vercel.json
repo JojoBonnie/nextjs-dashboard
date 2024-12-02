@@ -1,0 +1,6 @@
+{
+    "rewrites": [
+      { "source": "/api/auth/callback/credentials", "destination": "/api/auth/[...nextauth]" }
+    ]
+  }
+  
